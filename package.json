@@ -1,0 +1,35 @@
+{
+  "name": "energy-theme",
+  "displayName": "Energy Theme",
+  "description": "A dark, Material-inspired theme designed for comfortable coding in low-light environments.",
+  "publisher": "visual-interpretation-of-technology",
+  "author": "Zarnovitch",
+  "version": "1.0.1",
+  "icon": "media/energy.png",
+  "engines": {
+    "vscode": "^1.43.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "dark",
+    "material",
+    "color-theme",
+    "theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Energy Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/energy-theme-color.json"
+      }
+    ]
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zarnovitch/energy-theme.git"
+  }
+}

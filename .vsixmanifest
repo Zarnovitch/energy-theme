@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  
+  <Metadata>
+
+    <Identity Language="en-US" Id="energy-theme" Version="1.0.1" Publisher="visual-interpretation-of-technology" />
+
+    <DisplayName>Energy Theme</DisplayName>
+
+    <Description xml:space="preserve">A dark, Material-inspired theme designed for comfortable coding in low-light environments.</Description>
+
+    <Tags>dark,material,color-theme,theme</Tags>
+
+    <Categories>Themes</Categories>
+
+    <GalleryFlags>Public</GalleryFlags>
+    
+    <Properties>
+
+      <Property Id="Microsoft.VisualStudio.Code.Engine" Value="^1.43.0" />
+      <Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="" />
+      <Property Id="Microsoft.VisualStudio.Code.ExtensionPack" Value="" />
+      <Property Id="Microsoft.VisualStudio.Code.ExtensionKind" Value="ui,workspace,web" />
+      <Property Id="Microsoft.VisualStudio.Code.LocalizedLanguages" Value="" />
+      <Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />
+      <Property Id="Microsoft.VisualStudio.Services.Content.Pricing" Value="Free"/>
+      <Property Id="RepositoryUrl" Value="https://github.com/Zarnovitch/energy-theme.git" />
+
+    </Properties>
+
+    <License>LICENSE.txt</License>
+
+    <Icon>media/energy.png</Icon>
+
+  </Metadata>
+
+  <Installation>
+
+    <InstallationTarget Id="Microsoft.VisualStudio.Code"/>
+
+  </Installation>
+
+  <Dependencies/>
+
+  <Assets>
+
+    <Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="package.json" Addressable="true" />
+    <Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="README.md" Addressable="true" />
+    <Asset Type="Microsoft.VisualStudio.Services.Content.Changelog" Path="CHANGELOG.md" Addressable="true" />
+    <Asset Type="Microsoft.VisualStudio.Services.Content.License" Path="LICENSE.txt" Addressable="true" />
+    <Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="media/energy.png" Addressable="true" />
+
+  </Assets>
+
+</PackageManifest>
